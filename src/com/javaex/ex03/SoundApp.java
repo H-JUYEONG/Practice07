@@ -12,7 +12,9 @@ public class SoundApp {
 	public static void printSound(Soundable soundable) {
 
 		// 구현
-		System.out.println(soundable.sound());
+		if (soundable instanceof Soundable) {
+			System.out.println(soundable.sound());
+		}
 	}
 
 }
