@@ -1,13 +1,13 @@
 package com.javaex.ex02;
 
 public class Sparrow extends Bird {
-	
+
 	private String name;
 
 	public Sparrow() {
-		
+
 	}
-	
+
 	public String getName() {
 		return name;
 	}
@@ -15,7 +15,7 @@ public class Sparrow extends Bird {
 	public void setName(String name) {
 		this.name = name;
 	}
-	
+
 	public void fly() {
 		System.out.println("참새(" + name + ")가 날아 다닙니다.");
 	}
@@ -27,6 +27,5 @@ public class Sparrow extends Bird {
 	public void showName() {
 		System.out.println("참새의 이름은 " + name + " 입니다.");
 	}
-
 
 }
